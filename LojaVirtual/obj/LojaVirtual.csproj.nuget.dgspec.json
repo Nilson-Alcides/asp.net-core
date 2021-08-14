@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nilson\\Desktop\\LojaVirtual_StrigConexao_Fim\\LojaVirtual\\LojaVirtual.csproj": {}
+    "C:\\Users\\Nilson\\Desktop\\LojaVirtual_StrigConexao_Fim\\asp.net-core\\LojaVirtual\\LojaVirtual.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Nilson\\Desktop\\LojaVirtual_StrigConexao_Fim\\LojaVirtual\\LojaVirtual.csproj": {
+    "C:\\Users\\Nilson\\Desktop\\LojaVirtual_StrigConexao_Fim\\asp.net-core\\LojaVirtual\\LojaVirtual.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nilson\\Desktop\\LojaVirtual_StrigConexao_Fim\\LojaVirtual\\LojaVirtual.csproj",
+        "projectUniqueName": "C:\\Users\\Nilson\\Desktop\\LojaVirtual_StrigConexao_Fim\\asp.net-core\\LojaVirtual\\LojaVirtual.csproj",
         "projectName": "LojaVirtual",
-        "projectPath": "C:\\Users\\Nilson\\Desktop\\LojaVirtual_StrigConexao_Fim\\LojaVirtual\\LojaVirtual.csproj",
+        "projectPath": "C:\\Users\\Nilson\\Desktop\\LojaVirtual_StrigConexao_Fim\\asp.net-core\\LojaVirtual\\LojaVirtual.csproj",
         "packagesPath": "C:\\Users\\Nilson\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nilson\\Desktop\\LojaVirtual_StrigConexao_Fim\\LojaVirtual\\obj\\",
+        "outputPath": "C:\\Users\\Nilson\\Desktop\\LojaVirtual_StrigConexao_Fim\\asp.net-core\\LojaVirtual\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
