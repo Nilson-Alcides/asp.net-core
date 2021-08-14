@@ -444,6 +444,7 @@ C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\ob
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.cshtml.g.cs
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Produto\Visualizar.cshtml.g.cs
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorTargetAssemblyInfo.cache
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.RazorTargetAssemblyInfo.cs
@@ -452,3 +453,4 @@ C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\ob
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.pdb
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.genruntimeconfig.cache
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.CopyComplete
+C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.csprojAssemblyReference.cache

@@ -17,7 +17,7 @@ namespace LojaVirtual.Libraries.Email
              */
             SmtpClient smtp = new SmtpClient("smtp.gmail.com", 587);
             smtp.UseDefaultCredentials = false;
-            smtp.Credentials = new NetworkCredential("nilsonacides@gmail.com", "");
+            smtp.Credentials = new NetworkCredential("nilson.acides@gmail.com", "");
             smtp.EnableSsl = true;
 
             string corpoMsg = string.Format("<h2>Contato - LojaVirtual</h2>" +
@@ -35,7 +35,7 @@ namespace LojaVirtual.Libraries.Email
              * MailMessage -> Construir a mensagem
              */
             MailMessage mensagem = new MailMessage();
-            mensagem.From = new MailAddress("nilsonalcides@gmail.com");
+            mensagem.From = new MailAddress("nilson.alcides@gmail.com");
             mensagem.To.Add("elias.ribeiro.s@gmail.com");
             mensagem.Subject = "Contato - LojaVirtual - E-mail: " + contato.Email;
             mensagem.Body = corpoMsg;
