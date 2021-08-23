@@ -8,15 +8,16 @@ using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 using LojaVirtual.Database;
+using LojaVirtual.Repositories;
 
 namespace LojaVirtual.Controllers
 {
     public class HomeController : Controller
     {
-        private LojaVirtualContext _banco;
-        public HomeController(LojaVirtualContext banco)
+        private IClienteRepository _repository;
+        public HomeController(LojaVirtualContext repository)
         {
-            _banco = banco;
+            _repository = _repository;
         }
 
         [HttpGet]
