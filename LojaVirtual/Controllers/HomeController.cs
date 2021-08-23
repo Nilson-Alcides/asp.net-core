@@ -15,9 +15,9 @@ namespace LojaVirtual.Controllers
     public class HomeController : Controller
     {
         private IClienteRepository _repository;
-        public HomeController(LojaVirtualContext repository)
+        public HomeController(IClienteRepository repository)
         {
-            _repository = _repository;
+            _repository = repository;
         }
 
         [HttpGet]
@@ -31,11 +31,12 @@ namespace LojaVirtual.Controllers
         {
             if (ModelState.IsValid)
             {
+               /*
                 _banco.NewsletterEmails.Add(newsletter);
                 _banco.SaveChanges();
 
                 TempData["MSG_S"] = "E-mail cadastrado! Agora você vai receber promoções especiais no seu e-mail! Fique atento as novidades!";
-
+               */
                 return RedirectToAction(nameof(Index));
             }
             else
@@ -107,9 +108,7 @@ namespace LojaVirtual.Controllers
 
             if (ModelState.IsValid)
             {
-                _banco.Add(cliente);
-                _banco.SaveChanges();
-
+                _repository.Cadastrar(cliente);                
                 TempData["MSG_S"] = "Cadastro realizado com sucesso!";
 
                 //TODO Imprementar redirecionamento diferenetes
