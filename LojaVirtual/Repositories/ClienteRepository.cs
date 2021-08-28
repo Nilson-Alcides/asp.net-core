@@ -1,5 +1,6 @@
 ﻿using LojaVirtual.Database;
 using LojaVirtual.Models;
+using LojaVirtual.Repositories.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -46,7 +47,7 @@ namespace LojaVirtual.Repositories
             return _banco.Clientes.Find(id);
         }
 
-        public List<Cliente> obterTodosCliente(int id)
+        public IEnumerable<Cliente> obterTodosCliente(int id)
         {
             return _banco.Clientes.ToList();
         }
