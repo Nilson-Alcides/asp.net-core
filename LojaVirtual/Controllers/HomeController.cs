@@ -92,11 +92,26 @@ namespace LojaVirtual.Controllers
 
             return View("Contato");
         }
-
+        [HttpGet]
         public IActionResult Login()
-        {
+        {            
             return View();
         }
+        [HttpPost]
+        public IActionResult Login([FromForm] Cliente cliente)
+        {
+            if (cliente.Email == "nilson@gmial.com" && cliente.Senha == "1234")
+            {
+                //Logado
+                return new ContentResult() { Content = "Logado" };
+            }
+            else
+            {
+                //Erro na sessão
+                return new ContentResult() { Content = "Não Logado" };
+            }   
+        }
+
         [HttpGet]
         public IActionResult CadastroCliente()
         {
