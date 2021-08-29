@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dj6yRnnFv3SXjpYa0j5Ym6aT93wwPVgCJZgDd+L1oS/ynN2OU/C60flA4Zy3++UpaI37J5zcQCZZQk41tLZfGQ==",
+  "dgSpecHash": "Vb1rAYNlHBi/CLZ1RWiFgvH3OUvQa3HgrbCWb+IJHk9f15/e+uzPY9dSY/LOHMhE/G7hFaS7V5agYP2yp7GK0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Nilson\\Desktop\\LojaVirtual_StrigConexao_Fim\\asp.net-core\\LojaVirtual\\LojaVirtual.csproj",
   "expectedPackageFiles": [
@@ -186,7 +186,7 @@
     "C:\\Users\\Nilson\\.nuget\\packages\\microsoft.visualstudio.web.codegenerators.mvc\\2.2.0\\microsoft.visualstudio.web.codegenerators.mvc.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\Nilson\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\Nilson\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Users\\Nilson\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",

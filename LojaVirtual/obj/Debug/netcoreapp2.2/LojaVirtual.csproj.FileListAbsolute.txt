@@ -427,7 +427,6 @@ C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\bi
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\bin\Debug\netcoreapp2.2\LojaVirtual.pdb
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\bin\Debug\netcoreapp2.2\LojaVirtual.Views.dll
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\bin\Debug\netcoreapp2.2\LojaVirtual.Views.pdb
-C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.csprojAssemblyReference.cache
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.Libraries.Lang.Mensagem.resources
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.csproj.GenerateResource.cache
 C:\Users\Nilson\Desktop\LojaVirtual_StrigConexao_Fim\asp.net-core\LojaVirtual\obj\Debug\netcoreapp2.2\LojaVirtual.AssemblyInfoInputs.cache
