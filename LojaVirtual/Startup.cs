@@ -14,6 +14,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using LojaVirtual.Libraries.Sessao;
 
 namespace LojaVirtual
 {
@@ -29,6 +30,7 @@ namespace LojaVirtual
         
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddHttpContextAccessor();
             services.AddScoped<IClienteRepository, ClienteRepository>();
             services.AddScoped<INewsletterRepository, NewsletterRepository>();
             services.Configure<CookiePolicyOptions>(options =>
@@ -51,6 +53,7 @@ namespace LojaVirtual
             {
 
             });
+            services.AddScoped<Sessao>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddDbContext<LojaVirtualContext>(options => options.UseSqlServer(connection));
