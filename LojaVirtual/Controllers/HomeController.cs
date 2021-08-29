@@ -9,6 +9,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Text;
 using LojaVirtual.Database;
 using LojaVirtual.Repositories.Contracts;
+using Microsoft.AspNetCore.Http;
 
 namespace LojaVirtual.Controllers
 {
@@ -34,9 +35,9 @@ namespace LojaVirtual.Controllers
             if (ModelState.IsValid)
             {
                 _repositoryNewsletter.Cadastrar(newsletter);
-                
-                 TempData["MSG_S"] = "E-mail cadastrado! Agora você vai receber promoções especiais no seu e-mail! Fique atento as novidades!";
-                
+
+                TempData["MSG_S"] = "E-mail cadastrado! Agora você vai receber promoções especiais no seu e-mail! Fique atento as novidades!";
+
                 return RedirectToAction(nameof(Index));
             }
             else
@@ -94,7 +95,7 @@ namespace LojaVirtual.Controllers
         }
         [HttpGet]
         public IActionResult Login()
-        {            
+        {
             return View();
         }
         [HttpPost]
@@ -102,14 +103,30 @@ namespace LojaVirtual.Controllers
         {
             if (cliente.Email == "nilson@gmial.com" && cliente.Senha == "1234")
             {
-                //Logado
+                HttpContext.Session.Set("ID", new byte[] { 52 });
+                HttpContext.Session.SetString("Email", cliente.Email);
+                HttpContext.Session.SetInt32("Idade", 25);
                 return new ContentResult() { Content = "Logado" };
             }
             else
             {
                 //Erro na sessão
                 return new ContentResult() { Content = "Não Logado" };
-            }   
+            }
+        }
+
+        [HttpGet]
+        public IActionResult Painel()
+        {
+            byte[] UsuariID;
+            if (HttpContext.Session.TryGetValue("ID", out UsuariID))
+            {
+                return new ContentResult() { Content = "Usuário" + UsuariID[0] + ". Logado!" };
+            }
+            else
+            {
+                return new ContentResult() { Content = "Acesso Negado" };
+            }
         }
 
         [HttpGet]
