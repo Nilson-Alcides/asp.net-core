@@ -8,8 +8,8 @@ namespace LojaVirtual.Libraries.Sessao
 {
     public class Sessao
     {
-       private HttpContextAccessor _context;
-        public Sessao(HttpContextAccessor context)
+       private IHttpContextAccessor _context;
+        public Sessao(IHttpContextAccessor context)
         {
             _context = context;
         } 
